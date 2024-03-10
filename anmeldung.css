@@ -1,0 +1,389 @@
+.footer-container {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-pimary-900);
+}
+.footer-container1 {
+  width: 100%;
+  display: flex;
+  max-width: 1320px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-text {
+  color: var(--dl-color-secondary-400);
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 600;
+}
+.footer-text1 {
+  color: var(--dl-color-secondary-500);
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.footer-container3 {
+  display: flex;
+  margin-top: var(--dl-space-space-unitandhalf);
+  align-items: flex-start;
+  flex-direction: row;
+}
+.footer-link {
+  display: contents;
+}
+.footer-container4 {
+  flex: 0 0 auto;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-white);
+}
+.footer-icon {
+  width: 24px;
+  height: 24px;
+}
+.footer-container5 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footer-container6 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-text2 {
+  color: var(--dl-color-secondary-400);
+  align-self: flex-start;
+  font-weight: 600;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.footer-link1 {
+  color: var(--dl-color-secondary-500);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.footer-text3 {
+  color: var(--dl-color-secondary-400);
+  align-self: flex-start;
+  font-weight: 600;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.footer-navlink {
+  color: var(--dl-color-secondary-500);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.footer-container7 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 1px;
+  display: flex;
+  margin-top: var(--dl-space-space-tripleunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-color: #e3e8efff;
+}
+.footer-text4 {
+  color: var(--dl-color-secondary-500);
+  align-self: center;
+}
+.footer-link2 {
+  text-decoration: underline;
+}
+
+
+
+@media(max-width: 991px) {
+  .footer-container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-container2 {
+    align-items: center;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .footer-container6 {
+    align-items: center;
+  }
+}
+@media(max-width: 767px) {
+  .footer-text1 {
+    text-align: center;
+  }
+  .footer-container5 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-container6 {
+    align-items: center;
+  }
+}
+@media(max-width: 479px) {
+  .footer-container {
+    height: auto;
+  }
+  .footer-container2 {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-text {
+    align-self: center;
+    text-align: center;
+  }
+  .footer-text1 {
+    align-self: center;
+  }
+  .footer-container6 {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer-text2 {
+    align-self: center;
+  }
+  .footer-link1 {
+    align-self: center;
+    text-align: left;
+  }
+  .footer-text3 {
+    align-self: center;
+  }
+  .footer-navlink {
+    align-self: center;
+  }
+}
+
+.anmeldung-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fef0db;
+}
+.anmeldung-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anmeldung-navlink {
+  display: contents;
+}
+.anmeldung-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius50);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-pimary-500);
+}
+.anmeldung-container02:hover {
+  transform: scale(105%);
+  box-shadow: 0px 0px 10px 0px #4aa4e3;
+  transition-duration: 0.5s;
+}
+.anmeldung-icon {
+  fill: var(--dl-color-gray-white);
+  width: 25px;
+  height: 25px;
+}
+.anmeldung-text {
+  color: var(--dl-color-gray-white);
+  font-size: 1rem;
+  font-family: "Arial Black";
+  margin-left: var(--dl-space-space-halfunit);
+}
+.anmeldung-text1 {
+  color: var(--dl-color-pimary-500);
+  margin-left: var(--dl-space-space-halfunit);
+}
+.anmeldung-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.anmeldung-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anmeldung-icon2 {
+  fill: var(--dl-color-secondary-orange2);
+  width: 50px;
+  height: 50px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.anmeldung-text2 {
+  font-style: italic;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.anmeldung-text3 {
+  color: var(--dl-color-secondary-orange2);
+}
+.anmeldung-text5 {
+  color: var(--dl-color-secondary-orange2);
+}
+.anmeldung-text6 {
+  color: var(--dl-color-secondary-orange2);
+  text-decoration: underline;
+}
+.anmeldung-icon4 {
+  fill: var(--dl-color-secondary-orange2);
+  width: 50px;
+  height: 50px;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.anmeldung-container05 {
+  width: 640px;
+  height: 1138px;
+}
+.anmeldung-container06 {
+  display: contents;
+}
+.anmeldung-container07 {
+  display: none;
+}
+.anmeldung-container08 {
+  display: contents;
+}
+.anmeldung-container09 {
+  display: none;
+}
+.anmeldung-container10 {
+  display: contents;
+}
+@media(max-width: 991px) {
+  .anmeldung-container {
+    align-items: center;
+  }
+  .anmeldung-container01 {
+    justify-content: center;
+  }
+  .anmeldung-text1 {
+    line-height: 1.2;
+  }
+  .anmeldung-container04 {
+    height: auto;
+    flex-direction: column;
+  }
+  .anmeldung-text2 {
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .anmeldung-text3 {
+    color: var(--dl-color-secondary-orange2);
+  }
+  .anmeldung-text4 {
+    color: var(--dl-color-secondary-orange2);
+  }
+  .anmeldung-text5 {
+    color: var(--dl-color-secondary-orange2);
+  }
+  .anmeldung-text6 {
+    color: var(--dl-color-secondary-orange2);
+    text-decoration: underline;
+  }
+  .anmeldung-icon4 {
+    display: none;
+  }
+  .anmeldung-container05 {
+    width: 640px;
+    height: 1138px;
+    align-self: center;
+  }
+  .anmeldung-container07 {
+    align-self: center;
+  }
+  .anmeldung-container09 {
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .anmeldung-text1 {
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+  .anmeldung-container04 {
+    height: auto;
+    flex-direction: column;
+  }
+  .anmeldung-icon4 {
+    display: none;
+  }
+  .anmeldung-container05 {
+    display: none;
+  }
+  .anmeldung-container07 {
+    width: 500px;
+    height: 1138px;
+    display: flex;
+  }
+  .anmeldung-container09 {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .anmeldung-container01 {
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    flex-direction: column;
+  }
+  .anmeldung-text1 {
+    text-align: center;
+    line-height: 1.2;
+  }
+  .anmeldung-icon4 {
+    display: none;
+  }
+  .anmeldung-container07 {
+    display: none;
+  }
+  .anmeldung-container09 {
+    width: 400px;
+    height: 1200px;
+    display: flex;
+  }
+}
