@@ -75,7 +75,7 @@
   font-weight: 600;
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.footer-link1 {
+.footer-navlink {
   color: var(--dl-color-secondary-500);
   padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
@@ -86,7 +86,7 @@
   font-weight: 600;
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.footer-navlink {
+.footer-navlink1 {
   color: var(--dl-color-secondary-500);
   padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
@@ -106,26 +106,36 @@
   color: var(--dl-color-secondary-500);
   align-self: center;
 }
-.footer-link2 {
+.footer-link1 {
   text-decoration: underline;
 }
 
 
 
+
 @media(max-width: 991px) {
   .footer-container1 {
-    align-items: center;
-    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: row;
   }
   .footer-container2 {
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: var(--dl-space-space-doubleunit);
+    flex-direction: column;
   }
   .footer-container6 {
     align-items: center;
+    flex-direction: column;
+  }
+  .footer-navlink {
+    align-self: flex-start;
+    text-align: left;
   }
 }
 @media(max-width: 767px) {
+  .footer-container1 {
+    flex-direction: column;
+  }
   .footer-text1 {
     text-align: center;
   }
@@ -142,32 +152,40 @@
     height: auto;
   }
   .footer-container2 {
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     justify-content: center;
   }
   .footer-text {
-    align-self: center;
-    text-align: center;
+    align-self: flex-start;
+    text-align: left;
   }
   .footer-text1 {
     align-self: center;
+    text-align: left;
   }
   .footer-container6 {
     align-items: flex-start;
     justify-content: center;
   }
   .footer-text2 {
-    align-self: center;
+    align-self: flex-start;
   }
-  .footer-link1 {
-    align-self: center;
+  .footer-navlink {
+    align-self: flex-start;
     text-align: left;
   }
   .footer-text3 {
+    align-self: flex-start;
+  }
+  .footer-navlink1 {
     align-self: center;
   }
-  .footer-navlink {
-    align-self: center;
+  .footer-text4 {
+    color: var(--dl-color-secondary-500);
+  }
+  .footer-link1 {
+    text-decoration: underline;
   }
 }
 

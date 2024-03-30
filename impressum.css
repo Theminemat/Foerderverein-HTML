@@ -189,28 +189,31 @@
   }
 }
 
-.anmeldung-container {
+.impressum-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
-  background-color: #fef0db;
+  background-image: linear-gradient(90deg, rgb(32, 112, 166) 0.00%,rgb(41, 157, 84) 100.00%);
 }
-.anmeldung-container01 {
+.impressum-container:hover {
+  transition-duration: 0.5s;
+}
+.impressum-container1 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
 }
-.anmeldung-navlink {
+.impressum-navlink {
   display: contents;
 }
-.anmeldung-container02 {
+.impressum-container2 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -227,181 +230,280 @@
   text-decoration: none;
   background-color: var(--dl-color-pimary-500);
 }
-.anmeldung-container02:hover {
+.impressum-container2:hover {
   transform: scale(105%);
   box-shadow: 0px 0px 10px 0px #4aa4e3;
   transition-duration: 0.5s;
 }
-.anmeldung-icon {
+.impressum-icon {
   fill: var(--dl-color-gray-white);
   width: 25px;
   height: 25px;
 }
-.anmeldung-text {
+.impressum-text {
   color: var(--dl-color-gray-white);
   font-size: 1rem;
   font-family: "Arial Black";
   margin-left: var(--dl-space-space-halfunit);
 }
-.anmeldung-text1 {
+.impressum-text01 {
   color: var(--dl-color-pimary-500);
-  margin-left: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-unit);
 }
-.anmeldung-container03 {
-  flex: 0 0 auto;
+.impressum-container3 {
   width: auto;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: auto;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-.anmeldung-container04 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
+  margin-top: var(--dl-space-space-unit);
   align-items: center;
-  justify-content: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
 }
-.anmeldung-icon2 {
-  fill: var(--dl-color-secondary-orange2);
-  width: 50px;
-  height: 50px;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
+.impressum-text02 {
+  padding: var(--dl-space-space-unit);
 }
-.anmeldung-text2 {
-  font-style: italic;
-  text-align: center;
-  font-weight: 700;
-  line-height: 1.5;
+.impressum-text03 {
+  color: #000000;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-family: """Arial Black""";
+  font-weight: 900;
 }
-.anmeldung-text3 {
-  color: var(--dl-color-secondary-orange2);
+.impressum-text04 {
+  color: #000000;
+  font-family: """Arial Black""";
 }
-.anmeldung-text5 {
-  color: var(--dl-color-secondary-orange2);
+.impressum-text07 {
+  color: #000000;
+  font-family: """Arial Black""";
 }
-.anmeldung-text6 {
-  color: var(--dl-color-secondary-orange2);
-  text-decoration: underline;
+.impressum-text09 {
+  color: #000000;
+  font-family: """Arial Black""";
 }
-.anmeldung-icon4 {
-  fill: var(--dl-color-secondary-orange2);
-  width: 50px;
-  height: 50px;
-  margin-left: var(--dl-space-space-halfunit);
+.impressum-text11 {
+  color: #000000;
+  font-family: """Arial Black""";
 }
-.anmeldung-container05 {
-  width: 640px;
-  height: 1138px;
+.impressum-text13 {
+  color: #000000;
+  font-family: """Arial Black""";
 }
-.anmeldung-container06 {
-  display: contents;
+.impressum-text16 {
+  color: #000000;
+  font-family: """Arial Black""";
 }
-.anmeldung-container07 {
+.impressum-text18 {
+  color: #000000;
+  font-family: """Arial Black""";
+}
+.impressum-text20 {
+  color: #000000;
+  font-family: """Arial Black""";
+}
+.impressum-text23 {
+  color: #000000;
+  font-size: 1.15rem;
+  font-family: """Arial Black""";
+}
+.impressum-text26 {
+  color: #000000;
+  font-family: """Arial Black""";
+}
+.impressum-text29 {
+  color: #000000;
+  font-size: 1.15rem;
+  font-family: """Arial Black""";
+}
+.impressum-text32 {
+  color: #000000;
+  font-family: """Arial Black""";
+}
+.impressum-text35 {
+  color: #000000;
+  font-size: 1.15rem;
+  font-family: """Arial Black""";
+}
+.impressum-text36 {
+  color: #000000;
+  font-family: """Arial Black""";
+}
+.impressum-text39 {
+  color: #000000;
+  font-family: """Arial Black""";
+}
+.impressum-text41 {
+  color: #000000;
+  font-family: """Arial Black""";
+}
+.impressum-image {
+  width: 100%;
+  object-fit: cover;
+}
+.impressum-iframe {
+  width: 895px;
+  height: 884px;
   display: none;
-}
-.anmeldung-container08 {
-  display: contents;
-}
-.anmeldung-container09 {
-  display: none;
-}
-.anmeldung-container10 {
-  display: contents;
 }
 @media(max-width: 991px) {
-  .anmeldung-container {
-    align-items: center;
-  }
-  .anmeldung-container01 {
+  .impressum-container1 {
     justify-content: center;
-  }
-  .anmeldung-text1 {
-    line-height: 1.2;
-  }
-  .anmeldung-container04 {
-    height: auto;
-    flex-direction: column;
-  }
-  .anmeldung-text2 {
-    font-style: italic;
-    font-weight: 700;
-    line-height: 1.5;
-  }
-  .anmeldung-text3 {
-    color: var(--dl-color-secondary-orange2);
-  }
-  .anmeldung-text4 {
-    color: var(--dl-color-secondary-orange2);
-  }
-  .anmeldung-text5 {
-    color: var(--dl-color-secondary-orange2);
-  }
-  .anmeldung-text6 {
-    color: var(--dl-color-secondary-orange2);
-    text-decoration: underline;
-  }
-  .anmeldung-icon4 {
-    display: none;
-  }
-  .anmeldung-container05 {
-    width: 640px;
-    height: 1138px;
-    align-self: center;
-  }
-  .anmeldung-container07 {
-    align-self: center;
-  }
-  .anmeldung-container09 {
-    align-self: center;
   }
 }
 @media(max-width: 767px) {
-  .anmeldung-text1 {
+  .impressum-text01 {
     font-size: 1.5em;
-    line-height: 1.2;
-  }
-  .anmeldung-container04 {
-    height: auto;
-    flex-direction: column;
-  }
-  .anmeldung-icon4 {
-    display: none;
-  }
-  .anmeldung-container05 {
-    display: none;
-  }
-  .anmeldung-container07 {
-    width: 500px;
-    height: 1138px;
-    display: flex;
-  }
-  .anmeldung-container09 {
-    display: none;
   }
 }
 @media(max-width: 479px) {
-  .anmeldung-container01 {
+  .impressum-container1 {
     height: auto;
     padding-top: var(--dl-space-space-halfunit);
     flex-direction: column;
   }
-  .anmeldung-text1 {
+  .impressum-text01 {
+    color: var(--dl-color-pimary-500);
     text-align: center;
     line-height: 1.2;
   }
-  .anmeldung-icon4 {
-    display: none;
+  .impressum-text03 {
+    color: #000000;
+    font-size: 1.15rem;
+    font-style: normal;
+    font-family: Arial Black;
+    font-weight: 900;
   }
-  .anmeldung-container07 {
-    display: none;
+  .impressum-text04 {
+    color: #000000;
+    font-family: Arial Black;
   }
-  .anmeldung-container09 {
-    width: 400px;
-    height: 1200px;
-    display: flex;
+  .impressum-text05 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text06 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text07 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text08 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text09 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text10 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text11 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text12 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text13 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text14 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text15 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text16 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text17 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text18 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text19 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text20 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text22 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text23 {
+    color: #000000;
+    font-size: 1.15rem;
+    font-family: Arial Black;
+  }
+  .impressum-text25 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text26 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text28 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text29 {
+    color: #000000;
+    font-size: 1.15rem;
+    font-family: Arial Black;
+  }
+  .impressum-text31 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text32 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text34 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text35 {
+    color: #000000;
+    font-size: 1.15rem;
+    font-family: Arial Black;
+  }
+  .impressum-text36 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text38 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text39 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text40 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-text41 {
+    color: #000000;
+    font-size: 0.9rem;
+    font-family: Arial Black;
   }
 }
