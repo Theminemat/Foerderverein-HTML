@@ -149,6 +149,8 @@
     background-image: linear-gradient(135deg, rgba(16, 139, 221, 0.7) 0.00%,rgba(21, 227, 8, 0.7) 100.00%);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .header-heading {
     width: 190px;
@@ -166,7 +168,8 @@
     background-image: linear-gradient(135deg, rgba(16, 139, 221, 0.7) 0.00%,rgba(21, 227, 8, 0.7) 100.00%);
   }
   .header-heading {
-    color: var(--dl-color-secondary-400);
+    fill: var(--dl-color-gray-white);
+    color: var(--dl-color-gray-white);
     width: auto;
     height: auto;
   }
@@ -190,6 +193,7 @@
   .header-header {
     height: auto;
     padding: var(--dl-space-space-unit);
+    border-radius: 0px;
     flex-direction: column;
     background-image: linear-gradient(135deg, rgba(16, 139, 221, 0.7) 0.00%,rgba(21, 227, 8, 0.7) 100.00%);
   }

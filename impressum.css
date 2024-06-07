@@ -207,7 +207,7 @@
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #ffffff;
 }
 .impressum-navlink {
@@ -261,81 +261,32 @@
   justify-content: flex-start;
 }
 .impressum-text02 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
   padding: var(--dl-space-space-unit);
 }
 .impressum-text03 {
-  color: #000000;
   font-size: 1.15rem;
   font-style: normal;
-  font-family: """Arial Black""";
   font-weight: 900;
 }
-.impressum-text04 {
-  color: #000000;
-  font-family: """Arial Black""";
+.impressum-link {
+  text-decoration: underline;
 }
-.impressum-text07 {
-  color: #000000;
-  font-family: """Arial Black""";
+.impressum-text12 {
+  text-decoration: underline;
 }
-.impressum-text09 {
-  color: #000000;
-  font-family: """Arial Black""";
-}
-.impressum-text11 {
-  color: #000000;
-  font-family: """Arial Black""";
-}
-.impressum-text13 {
-  color: #000000;
-  font-family: """Arial Black""";
-}
-.impressum-text16 {
-  color: #000000;
-  font-family: """Arial Black""";
-}
-.impressum-text18 {
-  color: #000000;
-  font-family: """Arial Black""";
-}
-.impressum-text20 {
-  color: #000000;
-  font-family: """Arial Black""";
+.impressum-link3 {
+  text-decoration: underline;
 }
 .impressum-text23 {
-  color: #000000;
   font-size: 1.15rem;
-  font-family: """Arial Black""";
-}
-.impressum-text26 {
-  color: #000000;
-  font-family: """Arial Black""";
 }
 .impressum-text29 {
-  color: #000000;
   font-size: 1.15rem;
-  font-family: """Arial Black""";
-}
-.impressum-text32 {
-  color: #000000;
-  font-family: """Arial Black""";
 }
 .impressum-text35 {
-  color: #000000;
   font-size: 1.15rem;
-  font-family: """Arial Black""";
-}
-.impressum-text36 {
-  color: #000000;
-  font-family: """Arial Black""";
-}
-.impressum-text39 {
-  color: #000000;
-  font-family: """Arial Black""";
-}
-.impressum-text41 {
-  color: #000000;
-  font-family: """Arial Black""";
 }
 .impressum-image {
   width: 100%;
@@ -406,6 +357,10 @@
     color: #000000;
     font-family: Arial Black;
   }
+  .impressum-link {
+    color: #000000;
+    font-family: Arial Black;
+  }
   .impressum-text12 {
     color: #000000;
     font-family: Arial Black;
@@ -434,11 +389,19 @@
     color: #000000;
     font-family: Arial Black;
   }
+  .impressum-link2 {
+    color: #000000;
+    font-family: Arial Black;
+  }
   .impressum-text19 {
     color: #000000;
     font-family: Arial Black;
   }
   .impressum-text20 {
+    color: #000000;
+    font-family: Arial Black;
+  }
+  .impressum-link3 {
     color: #000000;
     font-family: Arial Black;
   }
