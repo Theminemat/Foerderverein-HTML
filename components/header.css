@@ -139,6 +139,7 @@
 }
 .header-root-class-name1 {
   margin-top: var(--dl-space-space-unit);
+  background-image: linear-gradient(135deg, rgba(16, 139, 221, 0.7) 0.00%,rgba(21, 227, 8, 0.7) 100.00%);
 }
 @media(max-width: 991px) {
   .header-header {

@@ -92,6 +92,30 @@
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
 
+    <style>
+      /* Webkit Scrollbar */
+      ::-webkit-scrollbar {
+        width: 12px;  /* Adjust the width of the scrollbar */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(135deg, rgba(16, 139, 221, 0.7) 0%, rgba(21, 227, 8, 0.7) 100%);
+        border-radius: 6px;  /* Optional: Adds rounded corners to the scrollbar thumb */
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(135deg, rgba(16, 139, 221, 1) 0%, rgba(21, 227, 8, 1) 100%);
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #111729;  /* Optional: Background color of the scrollbar track */
+      }
+
+
+      /* For Firefox */
+      scrollbar-color: linear-gradient(135deg, rgba(16, 139, 221, 0.7) 0%, rgba(21, 227, 8, 0.7) 100%) #f1f1f1;
+      scrollbar-width: thin;  /* Adjust the width of the scrollbar */
+    </style>
     <script type="text/javascript">
       var _iub = _iub || [];
       _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"enableFadp":true,"enableLgpd":true,"enableUspr":true,"fadpApplies":true,"floatingPreferencesButtonCaptionColor":"#FFFFFF00","floatingPreferencesButtonColor":"#FFFFFF21","floatingPreferencesButtonDisplay":"anchored-bottom-right","lang":"de","perPurposeConsent":true,"siteId":3451943,"usprApplies":true,"whitelabel":false,"cookiePolicyId":14195912, "banner":{ "acceptButtonCaptionColor":"#FFFFFF","acceptButtonColor":"#0073CE","acceptButtonDisplay":true,"backgroundColor":"#FFFFFF","closeButtonDisplay":false,"customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#DADADA","customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"bottom","rejectButtonCaptionColor":"#FFFFFF","rejectButtonColor":"#0073CE","rejectButtonDisplay":true,"showTitle":false,"textColor":"#000000" }};
